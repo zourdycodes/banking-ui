@@ -14,7 +14,7 @@ export const OuterWrapper = styled.section`
 
   @media (max-width: 700px) {
     margin-top: 10rem;
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
   }
 `;
 
