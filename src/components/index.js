@@ -1,5 +1,6 @@
 export { Card } from "./Card";
 export { Header } from "./Header";
+export { Footer } from "./Footer";
 export { Question } from "./Question";
 export { CardSection } from "./CardSection";
 export { ChartSection } from "./ChartSection";
