@@ -5,7 +5,7 @@ export const ContentContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3rem;
 
-  @media screen and (max-width: 700px) {
+  @media (max-width: 700px) {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -54,6 +54,10 @@ export const LeftContent = styled.div`
     padding: 1.4rem 0;
     line-height: 1.8rem;
   }
+
+  @media (max-width: 700px) {
+    padding-right: 0;
+  }
 `;
 
 export const RightContent = styled.div`
@@ -87,5 +91,9 @@ export const RightContent = styled.div`
     animation: move 8s infinite;
     animation-delay: 0.5s;
     transition: all 0.4s ease-in-out;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 2rem;
   }
 `;

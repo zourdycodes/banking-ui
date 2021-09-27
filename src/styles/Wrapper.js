@@ -11,6 +11,11 @@ export const OuterWrapper = styled.section`
   @media screen and (max-width: 990px) {
     padding: 5rem 4rem;
   }
+
+  @media (max-width: 700px) {
+    margin-top: 10rem;
+    padding: 2rem 2rem;
+  }
 `;
 
 export const InnerWrapper = styled.section`

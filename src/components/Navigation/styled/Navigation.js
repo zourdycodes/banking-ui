@@ -10,5 +10,9 @@ export const NavigationContainer = styled.nav`
     display: flex;
     justify-content: space-between;
     width: 40%;
+
+    @media (max-width: 700px) {
+      display: none;
+    }
   }
 `;

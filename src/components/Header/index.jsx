@@ -6,10 +6,8 @@ import { HeaderContainer } from "./styles/Header";
 export const Header = () => {
   return (
     <HeaderContainer>
-      <div className="header-content">
-        <Navigation />
-        <HeaderContent />
-      </div>
+      <Navigation />
+      <HeaderContent />
     </HeaderContainer>
   );
 };
