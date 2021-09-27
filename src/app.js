@@ -1,4 +1,4 @@
-import { CardSection, Header } from "./components";
+import { CardSection, Header, ChartSection } from "./components";
 import { OuterWrapper } from "./styles/Wrapper";
 
 export const App = () => {
@@ -7,6 +7,7 @@ export const App = () => {
       <Header />
       <OuterWrapper>
         <CardSection />
+        <ChartSection />
       </OuterWrapper>
     </div>
   );
