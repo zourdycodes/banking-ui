@@ -1,8 +1,9 @@
 import React from "react";
 
-import { NavigationContainer } from "./styled/Navigation";
 import logo from "../../images/logo.svg";
-import { ButtonCompose } from "../Button";
+
+import { NavigationContainer } from "./styled/Navigation";
+import { ButtonCompose } from "../PrimaryButton";
 
 export const Navigation = () => {
   return (
@@ -21,7 +22,6 @@ export const Navigation = () => {
           <a href="/pricing">Pricing</a>
         </li>
       </ul>
-
       <ButtonCompose content="Sign Up" />
     </NavigationContainer>
   );
