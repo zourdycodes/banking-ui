@@ -26,8 +26,30 @@ export const GlobalStyle = createGlobalStyle`
           font-size: 1.2rem;
           scroll-behavior: smooth;
       }
-      a{
-          color: inherit;
-      }
+      
+    a{
+        color: inherit;
+    }
+    p{
+        color: var(--lavender-secondary);
+        line-height: 1.9rem;
+    }
+    .secondary-heading{
+        font-size: 3rem;
+        color: var(--purple-primary);
+        
+    }
+    .small-heading{
+        font-size: 2.5rem;
+        color: var(--purple-primary);
+        text-align: center;
+    }
+    span{
+        color: var(--accent-pink);
+    }
+    //Utilities
+    .c-para{
+        text-align: center;
+    }
 
 `;
