@@ -3,6 +3,8 @@ import {
   Header,
   ChartSection,
   MessagingSection,
+  PaymentSection,
+  AccordionSection,
 } from "./components";
 import { OuterWrapper } from "./styles/Wrapper";
 
@@ -14,6 +16,8 @@ export const App = () => {
         <CardSection />
         <ChartSection />
         <MessagingSection />
+        <PaymentSection />
+        <AccordionSection />
       </OuterWrapper>
     </div>
   );

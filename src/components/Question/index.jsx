@@ -8,11 +8,11 @@ export const Question = ({ title, description }) => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <Container>
+    <Container onClick={() => setToggle((toggle) => !toggle)}>
       <div className="q-con">
         <div className="toggle-title">
           <h4>{title}</h4>
-          <button onClick={() => setToggle((toggle) => !toggle)}>
+          <button>
             {toggle ? <img src={minus} alt="" /> : <img src={plus} alt="" />}
           </button>
         </div>
@@ -29,8 +29,10 @@ const Container = styled.div`
   border-radius: 24px;
   transition: all 0.4s ease-in-out;
   box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+  cursor: pointer;
   p {
     transition: all 0.4s ease-in-out;
+    padding: 2rem;
   }
   h4 {
     color: #16194f;

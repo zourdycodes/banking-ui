@@ -80,6 +80,11 @@ const CardContainer = styled.div`
   padding: 3rem 4rem;
   border-radius: 50px;
   box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+
+  @media (max-width: 700px) {
+    padding: 1rem;
+    width: 100%;
+  }
   .card-title {
     font-size: 2.5rem;
     color: #000;

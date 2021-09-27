@@ -33,6 +33,9 @@ export const AccordionSection = () => {
 };
 
 const Container = styled.section`
+  @media (max-width: 600px) {
+    width: 200%;
+  }
   .c-para {
     width: 60%;
     margin: 0 auto;
